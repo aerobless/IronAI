@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane disable="false" prefHeight="1440.0" prefWidth="2560.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.w1nter.IronAI.MainGuiController">
+  <children>
+    <AnchorPane id="" blendMode="SRC_OVER" disable="false" focusTraversable="false" mouseTransparent="false" opacity="1.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" visible="true">
+      <children>
+        <Pane layoutX="699.0" layoutY="198.0" prefHeight="1005.0" prefWidth="1162.0">
+          <children>
+            <ImageView blendMode="LIGHTEN" fitHeight="353.35887011377" fitWidth="852.5275268554688" layoutX="165.0" layoutY="663.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="http://blood-crystal.com/imageUpload/ironAI_title.png" backgroundLoading="false" />
+              </image>
+            </ImageView>
+            <ImageView blendMode="RED" cache="false" fitHeight="546.0" fitWidth="546.0" layoutX="302.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" rotate="0.0" visible="true">
+              <image>
+                <Image url="http://blood-crystal.com/imageUpload/anim.gif" backgroundLoading="false" />
+              </image>
+            </ImageView>
+          </children>
+        </Pane>
+      </children>
+    </AnchorPane>
+  </children>
+</StackPane>
