@@ -13,7 +13,7 @@
   <children>
     <AnchorPane id="" blendMode="SRC_OVER" disable="false" focusTraversable="false" mouseTransparent="false" opacity="1.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000000;" visible="true">
       <children>
-        <Pane layoutX="699.0" layoutY="198.0" prefHeight="1005.0" prefWidth="1162.0">
+        <Pane layoutX="1439.0" layoutY="196.0" prefHeight="1005.0" prefWidth="1162.0" visible="true">
           <children>
             <ImageView blendMode="LIGHTEN" fitHeight="353.35887011377" fitWidth="852.5275268554688" layoutX="165.0" layoutY="663.0" pickOnBounds="true" preserveRatio="true">
               <image>
@@ -25,6 +25,16 @@
                 <Image url="http://blood-crystal.com/imageUpload/anim.gif" backgroundLoading="false" />
               </image>
             </ImageView>
+          </children>
+        </Pane>
+        <Pane id="pictureTest" fx:id="pictest" layoutX="192.0" layoutY="458.0" prefHeight="384.0" prefWidth="480.0" rotate="0.0">
+          <children>
+            <ImageView fitHeight="250.5" fitWidth="445.3333333333333" layoutX="21.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../../../../../../../Pictures/wallpaper/03347_losttube_2560x1440.jpg" />
+              </image>
+            </ImageView>
+            <Button layoutX="149.0" layoutY="40.0" mnemonicParsing="false" text="Button" />
           </children>
         </Pane>
       </children>

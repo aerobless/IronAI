@@ -91,6 +91,7 @@ public class IronAiMain extends Application {
             	        @Override
             	        public void run() {
             	            System.out.println("Checking time...");
+            	            MainGuiController.moveoutTest();
             	              try {
           						wakeUp();
           					} catch (ParseException e) {
